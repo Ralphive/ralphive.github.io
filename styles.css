@@ -5,7 +5,7 @@
 html{ font-size: 100%; height: 100%; overflow-x: hidden; margin: 0px;  padding: 0px; touch-action: manipulation; }
 
 
-body{ font-size: 16px; font-family: 'Poppins', serif; width: 100%; height: 100%; margin: 0; font-weight: 400;
+body{ font-size: 20px; font-family: 'Poppins', serif; width: 100%; height: 100%; margin: 0; font-weight: 400;
 	-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; word-wrap: break-word; 
 	color: #333; }
 
@@ -29,7 +29,7 @@ a, button{ display: inline-block; text-decoration: none; color: inherit; line-he
 
 a:focus, a:active, a:hover,
 button:focus, button:active, button:hover,
-a b.light-color:hover{ text-decoration: none; color: #F0Ab00; }
+a b.light-color:hover{ text-decoration: none; color: #F0Ab00;  }
 
 b{ font-weight: 600; }
 
@@ -47,6 +47,11 @@ button{ outline: 0; border: 0; background: none; cursor: pointer; }
 
 b.max-bold{ font-weight: 700; }
 
+.sap-logo{
+	width: 28px;
+	height: 13px;
+
+}
 
 
 /* ---------------------------------
@@ -102,5 +107,5 @@ INTRO
 	-webkit-transform: scale(0); transform: scale(0); }
 
 .intro .social-icons > li > a:hover:after{ -webkit-transform: scale(1); transform: scale(1); }
-.copyright{ text-align: center; padding: 30px 0; background: #28023D; }
+.copyright{ text-align: center; padding: 350px 0; background: #F0Ab00; }
 
