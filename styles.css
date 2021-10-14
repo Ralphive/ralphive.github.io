@@ -20,6 +20,9 @@
 	text-decoration: none;
   }
   
+  ul{
+	list-style: none;
+  }
   .list-menu {
 	font-size: 40px;
 	width: auto;
@@ -30,19 +33,17 @@
 	grid-gap: 1px;
 	align-items: center;
 	text-align:center;
-	list-style: none;
 	width: 100%;
 	position: fixed;  
   }
   
   .list-menu a{
-		color:var(--lgray);
+	color:var(--lgray);
   }
   
-   ul li:hover{
+  nav ul li:hover{
 	 background:var(--lgray);
 	 color:var(--apple);
-  
   }
   
   section {
@@ -120,6 +121,17 @@
 	padding: 1.5rem;
 	border-radius: 1rem;
   }
+
+  #activities-div h3{
+	  color: var(--black);
+	  text-align: center;
+  }
+
+  #activities-div ul{
+	padding-top:20px;
+	line-height: 3em;
+}
+
   #contacts {
 	background: var(--dgray);
 	text-shadow: 2px 2px 1px #FFF;
