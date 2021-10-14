@@ -83,7 +83,10 @@
   #welcome-section p {
 	font-size: 2vh;
   }
-  
+  #welcome-section p code{
+  	line-height: 2em;
+  }
+
   #welcome-section img{
 	width: 250px;
 	border-radius:50%;
