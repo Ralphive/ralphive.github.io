@@ -100,11 +100,11 @@
 	text-align:left;
   }
   
-  #projects {
+  #activities{
 	background: linear-gradient(180deg, var(--purple) 0 80%,var(--black));
   }
   
-  #projects-div {
+  #activities-div {
 	padding-top: 8vh;
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -115,7 +115,7 @@
 	margin-bottom: 6rem;
   }
   
-  #projects-div div {
+  #activities-div div {
 	background: #ede7f6;
 	padding: 1.5rem;
 	border-radius: 1rem;
