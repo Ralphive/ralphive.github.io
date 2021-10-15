@@ -132,7 +132,7 @@
   }
 
   #activities-div ul{
-	padding-top: 2em;
+	padding-top: 0.5em;
 	line-height: 3em;
 }
 
@@ -186,3 +186,35 @@
 	font-size: 1.5em;
 	}
   }
+
+  
+@keyframes scroll {
+	0% {
+		transform: translateX(0);
+	}
+	100% {
+		transform: translateX(calc(-250px * 7));
+	}
+}
+
+.slider {
+	background: white;
+	overflow: hidden;
+	width: 1fr;
+	max-width: 1fr;
+}
+.slider:hover {
+	transform:scale(1);
+}
+
+.slide-track {
+	animation: scroll 40s linear infinite;
+	display: flex;
+	width: calc(250px * 14);
+}
+
+.slide img{
+	width: 350px;
+}
+
+
