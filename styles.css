@@ -129,6 +129,7 @@
 	background: #ede7f6;
 	padding: 1rem;
 	border-radius: 1rem;
+	margin: 0.3rem;
   }
 
   #activities-div h3{
@@ -187,6 +188,22 @@
 	html{
 		font-size: 80%
 	}
+  }
+  @media only screen and (max-width: 700px) {
+	#socials {
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr 1fr;
+		grid-gap: 3em;
+
+	  }
+	  #activities-div{
+		font-size: 1.3em;
+	}
+	.p-about{
+		margin-right: 10%;
+		margin-left: 10%;
+		text-align:center;
+	  }
   }
 
   
