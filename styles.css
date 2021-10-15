@@ -16,6 +16,7 @@
 	scroll-behavior: smooth;
 	font-family: "Ubuntu", sans-serif;
 	background-color: var(--black);
+	font-size: 100%;
   }
   a {
 	text-decoration: none;
@@ -25,7 +26,7 @@
 	list-style: none;
   }
   .list-menu {
-	font-size: 40px;
+	font-size: 1.5em;
 	width: auto;
 	background: var(--apple);
 	color:var(--lgray);
@@ -61,14 +62,17 @@
 	transform: scale(1.1);
   }
   
-  h2 {
+  /* h2 {
 	color: var(--lgray);
-	font-size: 4vh;
+	font-size: 3em;
 	text-align: center;
-  }
+  } */
   
   h1, h2{
 	text-shadow: 2px 2px 1px #1f1f1f;
+	color: var(--lgray);
+	font-size: 4em;
+	text-align: center;
   }
   
   #welcome-section {
@@ -80,10 +84,9 @@
 	justify-content: center;
 	align-items: center;
 	color: var(--white);
-	font-size: 5vh;
   }
   #welcome-section p {
-	font-size: 2vh;
+	font-size: 1.2em;
   }
   #welcome-section p code{
   	line-height: 2em;
@@ -101,7 +104,7 @@
 	margin-right: 20%;
 	margin-left: 20%;
 	line-height: 1.0;
-	font-size: 1.em;
+	font-size: 1em;
 	font-weight: 400;
 	font-family: 'Roboto', sans-serif;
 	text-align:left;
@@ -161,7 +164,7 @@
   }
   
   #socials i {
-	font-size: 5vh;
+	font-size: 5em;
 	justify-self: center;
   }
   
@@ -181,11 +184,8 @@
   }
   
   @media only screen and (max-width: 700px) {
-	#welcome-section {
-	 font-size: 2em;
-	}
-	.list-menu {
-	font-size: 1.5em;
+	html{
+		font-size: 80%
 	}
   }
 
