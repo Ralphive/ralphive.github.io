@@ -115,7 +115,7 @@
   }
   
   #activities-div {
-	padding-top: 8vh;
+	padding-top: 3vh;
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 	grid-gap: 4rem;
@@ -127,7 +127,7 @@
   
   #activities-div div {
 	background: #ede7f6;
-	padding: 1.5rem;
+	padding: 1rem;
 	border-radius: 1rem;
   }
 
@@ -137,7 +137,7 @@
   }
 
   #activities-div ul{
-	padding-top: 0.5em;
+	/* padding-top: 0.5em; */
 	line-height: 3em;
 }
 
