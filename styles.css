@@ -143,6 +143,10 @@ h2 {
     text-align: center;
 }
 
+#activities-div a {
+    color: var(--black);
+}
+
 #activities-div ul {
     /* padding-top: 0.5em; */
     line-height: 3em;
